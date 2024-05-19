@@ -1,9 +1,9 @@
 export interface User {
-    id: number;
+    id?: number;
     username: string;
     password: string;
-    created_at: string;
-    updated_at: string;
+    created_at?: string;
+    updated_at?: string;
 }
 
 export interface Contract {
